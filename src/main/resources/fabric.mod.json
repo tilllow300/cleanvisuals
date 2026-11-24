@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanvisuals",
+  "version": "${version}",
+  "name": "Clean Visuals",
+  "description": "Client-Mod: Menue mit Rechtsshift, Clean Hitting.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["cleanvisuals.CleanVisualsClient"] },
+  "mixins": ["cleanvisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
